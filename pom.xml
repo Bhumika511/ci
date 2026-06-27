@@ -20,7 +20,7 @@
         <pact.broker.url>http://localhost:9292</pact.broker.url>
         <pact.publish.consumer.version>${project.version}</pact.publish.consumer.version>
         <pact.publish.consumer.branchName>local</pact.publish.consumer.branchName>
-        <pact.verifier.publishResults>false</pact.verifier.publishResults>
+        <pact.verifier.publishResults>true</pact.verifier.publishResults>
         <git.sha>local</git.sha>
         <pact.provider.branch>local</pact.provider.branch>
 
