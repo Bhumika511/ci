@@ -41,7 +41,6 @@ jobs:
       - name: 4. Run Provider Verification
         run: |
           mvn -Dtest=OmsProviderVerificationTest \
-              -Dgit.sha=${{ github.sha }} \
               -Dpact.verifier.publishResults=true \
               -Dpact.provider.version=${{ github.sha }} \
               -Dpactbroker.host=127.0.0.1 \
