@@ -51,7 +51,7 @@ jobs:
       - name: 5. Record provider deployment to production
         run: |
           pact-broker record-deployment \
-            --pacticipant oms \
+            --pacticipant OMS \
             --version ${{ github.sha }} \
             --environment production \
             --broker-base-url http://127.0.0.1:9292
